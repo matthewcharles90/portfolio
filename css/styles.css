@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #025464;
+    color: #ffffff;
+}
+
+section {
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background: #025464;
+}
+
+.logo {
+    font-size: 2.5rem;
+    color: #ffffff;
+    font-weight: 600;
+    cursor: default;
+}
+
+.navbar a {
+    font-size: 1.7rem;
+    color: #ffffff;
+    margin-left: 4rem;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #e45908;
+}
+
+/* Menu Icon */
+
+#menu-icon {
+    font-size: 3.6rem;
+    color: #ffffff;
+    display: none;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-img img {
+    width: 35vw;
+}
+
+.home-content h3 {
+    font-size: 3.2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.home-content h1 {
+    font-size: 5.6rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.home-content p {
+    font-size: 1.6rem;
+}
+
+.social-media a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background: transparent;
+    border: .2rem solid #e45908;
+    font-size: 2rem;
+    color: #e45908;
+    margin: 3rem 1.5rem, 3rem, 0;
+}
+
+.social-media a:hover {
+    background-color: #e45908;
+    color: #ffffff;
+    box-shadow: 0 0 1rem #7e726c;
+}
+
+/* button */
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background-color: #e45908;
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem #7e726c;
+    font-size: 1.6rem;
+    letter-spacing: .1rem;
+    font-weight: 600;
+}
+
+.btn:hover {
+    box-shadow: none;
+}
